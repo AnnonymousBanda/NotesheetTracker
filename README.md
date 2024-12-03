@@ -50,3 +50,8 @@ npm start
 ```
 
 This will run both the server and client simultaneously in a production environment.
+
+# Tech Stack
+
+-   **Frontend**: [Next.js](https://nextjs.org/) with [Tailwind CSS](https://tailwindcss.com/)
+-   **Backend**: [Node.js](https://nodejs.org/) with [Express](https://expressjs.com/)
