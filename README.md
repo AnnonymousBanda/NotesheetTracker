@@ -1,37 +1,68 @@
+
 # Notesheet Tracker
 
-This project manages and tracks payment bills passed by the PIC (Person In Charge) for various clubs. It supports three types of notesheet templates:
+The **Notesheet Tracker** is a comprehensive platform designed to streamline the management and approval process of financial notesheets for clubs and fests at **Indian Institute of Technology, Patna (IIT Patna)**. This system ensures transparency, efficiency, and accountability by enabling the creation, customization, approval, and tracking of financial notesheets through a structured workflow.
 
-1. **Reimbursement**: Used to request compensation for personal expenses incurred during an event. For example, if a club member spent their own money on an event, they can request reimbursement for the amount spent.
-2. **Disbursement**: Used to request advance money for an upcoming event. This helps in getting funds before the event takes place.
-3. **Settlement**: Used for settling all bills and expenses related to an event after it has concluded. This template helps in ensuring that all payments and dues are cleared.
+### Key Features
 
-Once a notesheet is created, it goes through a series of approvals from different authorities in a predefined sequence. For example, a reimbursement notesheet will first be submitted to the General Secretary (GenSec), followed by the Vice President Gymkhana (VPG), then to the President Gymkhana, followed by the Person In Charge (PIC), and finally the Associate Dean (ADean). The notesheet is approved only after all necessary approvals are granted.
+- **Templates for Notesheets**:
+  - **Reimbursement**: Submit requests for reimbursement of personal expenses incurred during an event.
+  - **Disbursement**: Request advance funds for an upcoming event.
+  - **Settlement**: Finalize and settle all expenses and bills after an event concludes.
+
+- **Approval Workflow**:
+  Notesheets pass through a predefined sequence of approvals:
+  1. General Secretary (GenSec)
+  2. Vice President Gymkhana (VP)
+  3. ARSA/DRSA
+  4. President Gymkhana
+  5. Payment In Charge (PIC)
+  6. Associate Dean (ADean)
+  Each approver can either forward the notesheet with their comments or reject it with reasons.
+
+- **Customizable Notesheets**:
+  Clubs and fests can use pre-designed templates or upload their own PDFs to create notesheets.
+
+- **Reminders for Pending Tasks**:
+  Automated daily reminders for pending approvals to ensure timely processing.
+
+- **Full Audit History**:
+  Every individual involved in the approval chain can view the complete history of their actions, including dates and comments, with the ability to download notesheets as PDFs.
+
+- **Digital Signatures**:
+  Forwarded notesheets include verifiable digital signatures for authenticity.
+
+- **Expense Tracker**:
+  - Clubs can view their expenditures.
+  - GenSec can view club-specific data.
+  - Admins and higher authorities can view a categorized overview of all expenditures.
+
+---
 
 ## Installation Guide
 
-To get started, install the necessary dependencies by running the following command at the root dir:
+To set up the project, install all dependencies from the root directory:
 
 ```bash
 npm run install-all
 ```
 
-This will install dependencies for both the client and server.
+This command installs dependencies for both the client and server.
 
 ## Running Guide
 
-Once the dependencies are installed, you can start the development environment, at the root dir, with:
+To start the development environment, run the following command from the root directory:
 
 ```bash
 npm run dev
 ```
 
-This will run both the client and server concurrently. The application will be available at:
+This will launch both the client and server concurrently. The application will be accessible at:
 
--   Client: [http://localhost:3000](http://localhost:3000)
--   Server: [http://localhost:8000](http://localhost:8000)
+- **Client**: [http://localhost:3000](http://localhost:3000)
+- **Server**: [http://localhost:8000](http://localhost:8000)
 
-To run the client or server individually, you can use the following commands:
+To start either the client or server individually:
 
 ```bash
 # Start the client
@@ -41,17 +72,24 @@ npm run client
 npm run server
 ```
 
+---
+
 ## Production Guide
 
-To run the application in production mode,, at the root dir, use:
+Run the application in production mode from the root directory with:
 
 ```bash
 npm start
 ```
 
-This will run both the server and client simultaneously in a production environment.
+This starts both the client and server in a production environment.
 
-# Tech Stack
+---
 
--   **Frontend**: [Next.js](https://nextjs.org/) with [Tailwind CSS](https://tailwindcss.com/)
--   **Backend**: [Node.js](https://nodejs.org/) with [Express](https://expressjs.com/)
+## Tech Stack
+
+- **Frontend**: [Next.js](https://nextjs.org/) with [Tailwind CSS](https://tailwindcss.com/)
+- **Backend**: [Node.js](https://nodejs.org/) with [Express](https://expressjs.com/)
+- **Database**: [MongoDB](https://www.mongodb.com/) with [Mongoose](https://mongoosejs.com/)
+
+---
