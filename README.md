@@ -40,6 +40,22 @@ The **Notesheet Tracker** is a comprehensive platform designed to streamline the
 
 ---
 
+## Login Credentials and User Roles
+
+To access the system, use the following login credentials:
+
+-   **Username**: `gensectech@iitp.ac.in`
+-   **Password**: `qwertTyuio@p12345`
+
+Upon logging in as the **General Secretary (GenSec)**, the user will have the following roles and permissions:
+
+-   **Reject Notesheet**: GenSec has the authority to reject raised notesheets for different technical clubs, providing comments on the rejection.
+-   **Approve Notesheet for Further Approval**: GenSec can approve notesheets for further processing by forwarding them to the next level in the approval chain.
+
+-   **Raise Notesheets**: GenSec can create and submit notesheets (Reimbursement, Disbursement, and Settlement) for their respective clubs or fests.
+
+---
+
 ## Installation Guide
 
 To set up the project, install all dependencies from the root directory:
