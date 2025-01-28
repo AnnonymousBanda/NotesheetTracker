@@ -97,35 +97,29 @@ This starts both the client and server in a production environment.
 
 ## Demo
 
-Below are screen recordings showcasing the roles and responsibilities of different users in the **Notesheet Tracker** workflow. Each video demonstrates key actions performed by the respective users.
+Below are screenshots showcasing the roles and responsibilities of different users in the **Notesheet Tracker** workflow. Each image links to the corresponding video demo for more details.
 
 ### 1. User POV
-<video width="800" controls>
-  <source src="demo/user.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+
+[![User POV](demo/user.png)](https://drive.google.com/file/d/1aKb41pOznM3RUklQKj3pEbA0u_BmjQOp/view?usp=sharing)  
+_Click the image to watch the demo._
 
 The user logs in using Microsoft OAuth and accesses their dashboard to view all previously raised notesheets. The demo highlights how the user raises a new notesheet, which enters the approval workflow starting with the PIC.
 
 ---
 
 ### 2. PIC POV
-<video width="800" controls>
-  <source src="demo/pic.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
 
-The Payment In Charge (PIC) logs in using their email and password (JWT authentication). The video shows how the PIC reviews pending notesheets, approves the recently raised notesheet, and adds their signature to the PDF.
+[![PIC POV](demo/pic.png)](https://drive.google.com/file/d/13pU6N0UpKEzw35U8tpzjjOeqSbTyBR3g/view?usp=sharing)  
+_Click the image to watch the demo._
+
+The Payment In Charge (PIC) logs in using their email and password (JWT authentication). The demo shows how the PIC reviews pending notesheets, approves the recently raised notesheet, and adds their signature to the PDF.
 
 ---
 
 ### 3. ADean POV
-<!-- <video width="800" controls>
-  <source src="demo/adean.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video> -->
-![Adean role](Demo/adean.gif)
+
+[![ADean POV](demo/adean.png)](https://drive.google.com/file/d/1ytr6IJjRNMNwru59bdF5ybZQOfhSXIuz/view?usp=sharing)  
+_Click the image to watch the demo._
 
 The Associate Dean (ADean) logs in to approve notesheets that have already been reviewed by the PIC. In this demo, the ADean approves the notesheet, marking it as passed for funds, completing the approval process.
-
----
