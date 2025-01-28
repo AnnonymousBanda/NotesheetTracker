@@ -120,10 +120,11 @@ The Payment In Charge (PIC) logs in using their email and password (JWT authenti
 ---
 
 ### 3. ADean POV
-<video width="800" controls>
+<!-- <video width="800" controls>
   <source src="demo/adean.mp4" type="video/mp4">
   Your browser does not support the video tag.
-</video>
+</video> -->
+![Adean role](Demo/adean.gif)
 
 The Associate Dean (ADean) logs in to approve notesheets that have already been reviewed by the PIC. In this demo, the ADean approves the notesheet, marking it as passed for funds, completing the approval process.
 
